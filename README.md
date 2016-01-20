@@ -26,7 +26,7 @@ This project is divided in two parts: webhook and reader.
 
 1. Create the reader in webtask:
 
-    ```wt create slackpop_reader.js --secret MONGO_URL=[YOUR-MONGODB-URL] --secret SLACK_TOKEN=[YOUR-SLACK-READ-TOKEN]```
+	```wt create slackpop_reader.js --secret MONGO_URL=[YOUR-MONGODB-URL] --secret SLACK_TOKEN=[YOUR-SLACK-READ-TOKEN]```
     
 1. Start analyzing of your Slack popularity
 
@@ -34,16 +34,16 @@ This project is divided in two parts: webhook and reader.
 
 1. All mentions:
 
-	```https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader```
-
+	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader ```
+	
 1. Mentions in an specific channel:
 
-	```https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME]```
-
+	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME] ```
+	
 1. Mentions for the last N-days:
 
-	```https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?lastdays=[N-DAYS]```
-
+	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?lastdays=[N-DAYS] ```
+	
 1. Mentions for the last N-days in an specific channel:
 
-	```https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME]&lastdays=1=[N-DAYS]```
+	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME]&lastdays=1=[N-DAYS] ```
