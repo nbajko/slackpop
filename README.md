@@ -46,4 +46,4 @@ This project is divided in two parts: webhook and reader.
 	
 1. Mentions for the last N-days in an specific channel:
 
-	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME]&lastdays=1=[N-DAYS] ```
+	``` https://webtask.it.auth0.com/api/run/<yours>/slackpop_reader?channel=[CHANNEL-NAME]&lastdays=[N-DAYS] ```
